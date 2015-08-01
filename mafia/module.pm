@@ -35,7 +35,7 @@ $resolvemode = 'paradox' unless defined($resolvemode);
 our $messagemode;
 $messagemode = 'color' unless defined($messagemode);
 our $mafia_cmd;
-$mafia_cmd = 'xmafia' unless defined($mafia_cmd);
+$mafia_cmd = 'dav' unless defined($mafia_cmd);
 
 our $cur_setup;
 our $nonrandom_assignment;
