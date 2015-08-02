@@ -7605,8 +7605,8 @@ our %role_config = (
 		theme => "poke",
 	},
 	poke_ranger => {
-		name => "Pokémon Ranger",
-		roletext => "You can target a player, and if they are an sk Pokémon, they will be domesticated and turned into a normal Pokémon Trainer.",
+		name => "Pokemon Ranger",
+		roletext => "You can target a player, and if they are an sk Pokemon, they will be domesticated and turned into a normal Pokemon Trainer.",
 		actions => ["psych"],
 		status => {
 			convert => "sk,t,town",
@@ -7653,7 +7653,7 @@ our %role_config = (
 		theme => "poke",
 	},
 	poke_trainer => {
-		name => "Pokémon Trainer",
+		name => "Pokemon Trainer",
 		roletext => "You win when all the bad guys are gone.",
 		actions => [],
 		setup => "town/basic",
@@ -7675,7 +7675,7 @@ our %role_config = (
 	},
 	poke_lance => {
 		name => "Lance",
-		roletext => "As a Pokémon Champion, you have extra influence over the town, allowing you to vote twice. To vote twice, type "!vote [player] [player]"",
+		roletext => "As a Pokemon Champion, you have extra influence over the town, allowing you to vote twice. To vote twice, type "!vote [player] [player]"",
 		actions => [],
 		status => {
 			maxvote => 2,
@@ -7782,7 +7782,7 @@ our %role_config = (
 	},
 	poke_connected1 => {
 		name => "Connected Trainer",
-		roletext => "You and BUDDY1 have each others' numbers on your Pokégears.",
+		roletext => "You and BUDDY1 have each others' numbers on your Pokegears.",
 		actions => [],
 		groups => ["mason1"],
 		status => {
@@ -7799,7 +7799,7 @@ our %role_config = (
 	},
 	poke_connected2 => {
 		name => "Connected Trainer",
-		roletext => "You and BUDDY1 have each others' numbers on your Pokégears.",
+		roletext => "You and BUDDY1 have each others' numbers on your Pokegears.",
 		actions => [],
 		groups => ["mason2"],
 		status => {
@@ -7825,7 +7825,7 @@ our %role_config = (
 		theme => "poke",
 	},
 	poke_pokedex => {
-		name => "Pokédex",
+		name => "Pokedex",
 		roletext => "You can use your massive database to identify the role of the target.",
 		actions => ["inspect"],
 		status => {
@@ -7949,7 +7949,7 @@ our %role_config = (
 	},
 	poke_magneton => {
 		name => "Magneton",
-		roletext => "You and you partner Magneton are part of the same Pokémon. If they die, so do you. One part, but not both, could be mafia.",
+		roletext => "You and you partner Magneton are part of the same Pokemon. If they die, so do you. One part, but not both, could be mafia.",
 		actions => [],
 		groups => ["sibling"],
 		status => {
@@ -7965,7 +7965,7 @@ our %role_config = (
 	},
 	poke_magneton2 => {
 		name => "Magneton",
-		roletext => "You and you partner Magneton are part of the same Pokémon. If they die, so do you. One part, but not both, could be mafia.",
+		roletext => "You and you partner Magneton are part of the same Pokemon. If they die, so do you. One part, but not both, could be mafia.",
 		actions => [],
 		groups => ["sibling"],
 		status => {
