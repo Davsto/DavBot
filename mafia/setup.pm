@@ -362,6 +362,7 @@ our %setup_config = (
 		help => "Pokemon: A theme setup based on Pokemon. Made by Davsto.",
 		minplayersrandom => 4,
 		randomok => 1,
+		fakeok => 1,
 		theme => "poke",
 	},
 	wackypokemon => {
@@ -378,7 +379,7 @@ our %setup_config = (
 		help => "Wacky Pokemon: The Pokemon theme setup, but with a considerably larger number of unusual roles.",
 		randomok => 1,
 		minplayersrandom => 4,
-		realok => 1,
+		fakeok => 1,
 		theme => "poke",
 	},
 	insanepokemon => {
@@ -396,7 +397,7 @@ our %setup_config = (
 		help => "Insane Pokemon: The Pokemon theme, but with even more insane roles, even useless ones.",
 		randomok=> 1,
 		minplayersrandom => 4,
-		realok => 1,
+		fakeok => 1,
 		theme => "poke",
 	},	
 	upick => {
