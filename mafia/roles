@@ -7675,7 +7675,7 @@ our %role_config = (
 	},
 	poke_lance => {
 		name => "Lance",
-		roletext => "As a Pokemon Champion, you have extra influence over the town, allowing you to vote twice. To vote twice, type "!vote [player] [player]"",
+		roletext => "As a Pokemon Champion, you have extra influence over the town, allowing you to vote twice.",
 		actions => [],
 		status => {
 			maxvote => 2,
@@ -8040,7 +8040,7 @@ our %role_config = (
 	},
 	poke_mimejr => {
 		name => "Mime Jr.",
-		roletext => "You can use Copycat on another player's action, copying it ("copy [player] [newtarget]").",
+		roletext => "You can use Copycat on another player's action, copying it (copy [player] [newtarget]).",
 		actions => ["copy"],
 		setup => "town/power",
 		power => 0.5,
@@ -8162,7 +8162,7 @@ our %role_config = (
 	},
 	poke_nosepass => {
 		name => "Nosepass",
-		roletext => "You can use "Block" on a player, stopping them from voting the next day.",
+		roletext => "You can use Block on a player, stopping them from voting the next day.",
 		actions => ["voteblock"],
 		minplayers => 8,
 		setup => "mafia,town,mafia-ally",
@@ -8174,7 +8174,7 @@ our %role_config = (
 	poke_forretress => {
 		name => "Forretress",
 		roletext => "You can hide inside your shell once during the game, stopping any kills directed towards you that night.",
-		alias => 'poke_trainer+template_cow",
+		alias => 'poke_trainer+template_cow',
 		countas => "tik",
 		setup => "town,mafia,survivor",
 		power => 0.2,
