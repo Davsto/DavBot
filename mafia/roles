@@ -7633,7 +7633,7 @@ our %role_config = (
 	},
 	poke_lucario => {
 		name => "Lucario",
-		roletext => "You can kill other players, and you win if you are in the last two players and there are no other killers.",
+		roletext => "You can kill other players at night.",
 		actions => ["kill"],
 		countas => "v",
 		setup => "sk/basic",
@@ -7762,9 +7762,9 @@ our %role_config = (
 		rarity => 2,
 		theme => "poke",
 	},
-	poke_machop => {
-		name => "Machop",
-		roletext => "You can kill a player during the night.",
+	poke_riolu => {
+		name => "Riolu",
+		roletext => "You can kill a player during the night or day, but only once.",
 		alias => 'poke_lucario+template_x',
 		countas => "v",
 		setup => "town/power,sk/basic,survivor,mafia-ally",
@@ -7921,9 +7921,9 @@ our %role_config = (
 		rarity => 5,
 		theme => "poke",
 	},
-	poke_riolu => {
-		name => "Riolu",
-		alias => 'poke_lucario+template_1',
+	poke_machop => {
+		name => "Machop",
+		alias => 'poke_machamp+template_1',
 		countas => "v",
 		setup => "town",
 		power => 0.5,
