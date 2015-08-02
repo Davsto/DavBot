@@ -295,6 +295,11 @@ our %action_config = (
 		checkalive => "target",
 		help => "curse [player]: Inflict a curse on another player.",
 	},
+	paralyze => {
+		alias => "curse"
+		status => 'paralyze',
+		help => "paralyze [player]: Inflict paralysis on another player.",
+	},	
 	mark => {
 		priority => 408,
 		targets => ["alive,nonself"],
@@ -2330,8 +2335,21 @@ sub action_curse {
 		enqueue_message($target, $msg1, $player, $target);
 		send_help($target, 1);
 	}
-}
-
+sub action_paralyze {
+	my ($player, $role, $target) = @_;
+	
+	$role = get_player_role($player) unless $role;
+	$role = get_player_role($player) if $role eq '*';
+	
+	if (get_player_role($target) ne $role)
+	{
+		transform_player($target, $role);
+		
+		my $msg1 = "You have been paralyzed.";
+		enqueue_message($target, $msg1, $player, $target);
+		send_help($target, 1);
+	}
+},	
 sub action_transformother {
 	my ($player, $role, $target) = @_;
 	
