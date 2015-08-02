@@ -7989,7 +7989,7 @@ our %role_config = (
 	},
 	poke_medicham => {
 		name => "Medicham",
-		roletext => "You can use Feint on the target. This will kill the player if they have received doctor protection too.",
+		roletext => "You can use Feint on the target. This will kill the player if they have received doctor protection that night.",
 		actions => ["reverseprotect"],
 		setup => "mafia/power",
 		power => 1,
