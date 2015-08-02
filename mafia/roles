@@ -8184,7 +8184,7 @@ our %role_config = (
 	},
 	poke_audinomeg => {
 		name => "Mega Audino",
-		roletext => "You can either protext someone or kill someone each night.",
+		roletext => "You can either protect someone or kill someone each night.",
 		actions => ["protect", "kill"],
 		countas => "d",
 		minplayers => 6,
