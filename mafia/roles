@@ -7561,7 +7561,7 @@ our %role_config = (
 		actions => ["recruit"],
 		status => {
 			recruit => 'poke_plasma',
-		}
+		},
 		setup => "cult/basic/power",
 		countas => 'cult1',
 		power => 0.5,
@@ -7741,7 +7741,7 @@ our %role_config = (
 		name => "Haunter",
 		roletext => "If you're lynched, you automatically use Destiny Bond on the final voter, killing them too.",
 		actions => [],
-		status => (
+		status => {
 			onlynch => "supersaint",
 		},
 		setup => "town,survivor",
