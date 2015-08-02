@@ -7697,6 +7697,7 @@ our %role_config = (
 			immunekill => '*',
 			groupactions => "mafiakill",
 		},
+		setup => "mafia/basic/power",
 		countas => 'tik',
 		setup_checks => ["m,unique,1"],
 		power => 1,
@@ -7799,7 +7800,7 @@ our %role_config = (
 	},
 	poke_connected2 => {
 		name => "Connected Trainer",
-		roletext => "You and BUDDY1 have each others' numbers on your Pokegears.",
+		roletext => "You and BUDDY1 have each others' numbers on your Pokegears. You can communicate with each other at night.",
 		actions => [],
 		groups => ["mason2"],
 		status => {
@@ -8182,6 +8183,7 @@ our %role_config = (
 		theme => "poke",
 	},
 	poke_audinomeg => {
+		name => "Mega Audino",
 		roletext => "You can either protext someone or kill someone each night.",
 		actions => ["protect", "kill"],
 		countas => "d",
