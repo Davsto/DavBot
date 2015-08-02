@@ -351,7 +351,7 @@ our %setup_config = (
 	},
 	pokemon => {
 		minplayers => 4,
-		randomweirdness => 1,
+		weirdness => 0.5,
 		baseroles => {
 			t => 'poke_trainer',
 			m => 'poke_rocket',
@@ -361,13 +361,11 @@ our %setup_config = (
 		},
 		help => "Pokemon: A theme setup based on Pokemon. Made by Davsto.",
 		minplayersrandom => 4,
-		randomok => 1,
 		fakeok => 1,
 		theme => "poke",
 	},
 	wackypokemon => {
 		minplayers => 4,
-		basic => 1,
 		weirdness => 0.9,
 		baseroles => {
 			t => 'poke_trainer',
@@ -377,14 +375,12 @@ our %setup_config = (
 			sv => 'poke_gary',
 		},
 		help => "Wacky Pokemon: The Pokemon theme setup, but with a considerably larger number of unusual roles.",
-		randomok => 1,
 		minplayersrandom => 4,
 		fakeok => 1,
 		theme => "poke",
 	},
 	insanepokemon => {
 		minplayers => 4,
-		basic => 1,
 		weirdness => 1,
 		baseroles => {
 			t => 'poke_trainer',
@@ -395,7 +391,6 @@ our %setup_config = (
 		},
 		nolimits => 1,
 		help => "Insane Pokemon: The Pokemon theme, but with even more insane roles, even useless ones.",
-		randomok=> 1,
 		minplayersrandom => 4,
 		fakeok => 1,
 		theme => "poke",
