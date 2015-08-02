@@ -7592,7 +7592,7 @@ our %role_config = (
 	},
 	poke_rocket => {
 		name => "Team Rocket Grunt",
-		roletext => "You are a member of Team Rocket, with which you can kill once per night as a group. You win when you have majority and there are no other killers.",
+		roletext => "You are a member of Team Rocket, with which you can kill once per night as a group.",
 		actions => [],
 		status => {
 			groupactions => "mafiakill",
@@ -7654,7 +7654,6 @@ our %role_config = (
 	},
 	poke_trainer => {
 		name => "Pokemon Trainer",
-		roletext => "You win when all the bad guys are gone.",
 		actions => [],
 		setup => "town/basic",
 		countas => 't',
