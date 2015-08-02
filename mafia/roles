@@ -8335,7 +8335,7 @@ our %role_config = (
 		roletext => "Your confusing dance gives each other player's night actions a 50% chance of affecting a random player as long as you're alive.",
 		actions => ["autochaos"],
 		setup => "town,survivor",
-		countas 'anar',
+		countas => 'anar',
 		power => -0.2,
 		rarity => 50,
 		theme => "poke",
@@ -8346,6 +8346,7 @@ our %role_config = (
 		actions => [],
 		status => {
 			onlynch => 'transform:poke_banette,mafia-ally',
+		},	
 		setup => "town/bad",
 		countas => 'ss',
 		minmafia => 1,
