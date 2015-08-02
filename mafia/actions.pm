@@ -737,7 +737,13 @@ our %action_config = (
 		is_kill => 1,
 		help => "mup [player]: This has a 25% chance of protecting the target, a 25% chance of investigating, a 25% chance of killing, and a 25% chance of doing nothing.",
 	},
-	hack => {
+	assist => {
+		alias => "none ? protect #1 ? inspect #1 ? kill #1",
+		targets => ["alive,nonself"],
+		is_kill => 1,
+		help => "assist [player]: This move selects one of four actions. This has a 25% chance of protecting the target, a 25% chance of investigating, a 25% chance of killing, and a 25% chance of doing nothing.",
+	},
+	hack => {	
 		alias => "block #1 ? block #1 ? block #1 ? redirect #1 #? ? redirect #1 #1 ? redirect #1 #S ? copy #1 #? ? copy #1 #1 ? copy #1 #S",
 		targets => ["alive,nonself"],
 		help => "hack [player]: This hacks another player's action, which has an equal chance of blocking it, redirecting it, or copying it.",
