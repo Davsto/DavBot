@@ -7749,7 +7749,7 @@ our %role_config = (
 		power => 0.2,
 		rarity => 2,
 		template_forbidstatus => 'onlynch',
-		theme = "poke",
+		theme => "poke",
 	},
 	poke_croagunk => {
 		name => "Croagunk",
@@ -7838,13 +7838,13 @@ our %role_config = (
 	},
 	poke_happiny => {
 		name => "Happiny"
-		roletext => "When the Chansey dies, you evolve into one.",
+		roletext => "When a Chansey dies, you evolve into one.",
 		actions => [],
 		status => {
 			"onroledeath1:poke_chansey" => "transform",
 			transform => "poke_happiny=poke_chansey",
 			backupactions => 'protect',
-		}
+		},
 		nocombine => 1,
 		countas => 'backup',
 		minscum => 1,
