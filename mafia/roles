@@ -8323,6 +8323,8 @@ our %role_config = (
 		template_forbidstatus => 'failure',
 	},
 	poke_machamp50 => {
+		truename => "Injured Machamp",
+		name => "Machamp",
 		alias => 'poke_machamp+template_half',
 		countas => "v",
 		setup => "town",
