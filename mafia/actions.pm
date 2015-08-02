@@ -3017,4 +3017,3 @@ sub action_truthsay { # Daz 8/5/11 (WIP)
 		
 	reduce_status($target, "doomed", '*')
 }
-}
