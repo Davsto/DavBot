@@ -55,10 +55,10 @@ sub bot_log {
 if (!defined $loaded || !$loaded)
 {
 	$pid_file= "xylbot";
-	$server = "irc.globalgamers.net";
-	$channel = "#xylbot";
-	$nick = "DazBot";
-	$owner = "Daz";
+	$server = "fluffypony.nl.eu.synirc.net";
+	$channel = "#scpmafiatest";
+	$nick = "DavBot";
+	$owner = "Davsto";
 	$password = "";
 	$port = 6668;
 	$linedelay = 1;
