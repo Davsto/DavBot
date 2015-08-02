@@ -6,7 +6,6 @@ no warnings 'redefine', 'qw';
 use sort 'stable';
 use Carp qw(cluck);
 
-use String::Similarity;
 use IO::Handle;
 use Fcntl ':flock';
 
