@@ -7836,24 +7836,6 @@ our %role_config = (
 		rarity => 3,
 		theme => "poke",
 	},
-	poke_happiny => {
-		name => "Happiny"
-		roletext => "When a Chansey dies, you evolve into one.",
-		actions => [],
-		status => {
-			"onroledeath1:poke_chansey" => "transform",
-			transform => "poke_happiny=poke_chansey",
-			backupactions => 'protect',
-		},
-		nocombine => 1,
-		countas => 'backup',
-		minscum => 1,
-		setup => "town",
-		power => 0.5,
-		rarity => 4,
-		setup_checks => ["d,minroled,1"],
-		theme => "poke",
-	},
 	poke_wannabe => {
 		name => "Wannabe Looker",
 		roletext => "When Looker dies, you take his place.",
