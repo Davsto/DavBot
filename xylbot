@@ -59,7 +59,7 @@ if (!defined $loaded || !$loaded)
 	$channel = "#davbottest";
 	$nick = "DavBot";
 	$owner = "Davsto";
-	$password = "";
+	$password = "beepboopiamrobot1";
 	$port = 6668;
 	$linedelay = 1;
 
