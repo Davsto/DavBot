@@ -2335,6 +2335,7 @@ sub action_curse {
 		enqueue_message($target, $msg1, $player, $target);
 		send_help($target, 1);
 	}
+}	
 sub action_paralyze {
 	my ($player, $role, $target) = @_;
 	
@@ -2349,6 +2350,7 @@ sub action_paralyze {
 		enqueue_message($target, $msg1, $player, $target);
 		send_help($target, 1);
 	}
+}	
 sub action_transformother {
 	my ($player, $role, $target) = @_;
 	
@@ -3015,4 +3017,4 @@ sub action_truthsay { # Daz 8/5/11 (WIP)
 		
 	reduce_status($target, "doomed", '*')
 }
-
+}
