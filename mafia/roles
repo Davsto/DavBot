@@ -8313,7 +8313,7 @@ our %role_config = (
 		rarity => 25,
 	},
 	template_paralyzed => {
-		name => "Cursed #NAME",
+		name => "Paralyzed #NAME",
 		roletext => "#TEXT You actions have a 50% chance of failing.",
 		status => {
 			failure => 50,
