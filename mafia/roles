@@ -7931,7 +7931,7 @@ our %role_config = (
 	},
 	poke_magneton => {
 		name => "Magneton",
-		roletext => "You and you partner Magneton are part of the same Pokemon. If they die, so do you. One part, but not both, could be mafia.",
+		roletext => "You and your partner Magneton are part of the same Pokemon. If they die, so do you. One part, but not both, could be mafia.",
 		actions => [],
 		groups => ["sibling"],
 		status => {
