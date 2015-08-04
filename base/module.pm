@@ -18,7 +18,7 @@ sub add_commands  {
                 my (undef, $username, $password) = split m{/}, "$::password/";
                 ::bot_log "AUTH from $fromnick\n";
                 ::say('nickserv@services.globalgamers.net', "auth $username $password");
-                $::cur_connection->mode($::nick, '+'.'x', $::nick);
+                $::cur_connection->mode($::nick, '+'.'B', $::nick);
                 return 1;
         }, 500, "Causes the bot to auth with nickserv if it has not done so.";
 	::add_command_any "quit", sub {
