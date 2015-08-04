@@ -7575,7 +7575,6 @@ our %role_config = (
 			recruited => '*',
 		},
 		showhelp => 1,
-		theme => "Poke",
 	},
 	poke_chansey => {
 		name => "Chansey",
