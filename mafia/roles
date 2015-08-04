@@ -7781,7 +7781,7 @@ our %role_config = (
 	},
 	poke_connected1 => {
 		name => "Connected Trainer",
-		roletext => "You and BUDDY1 have each others' numbers on your Pokegears.",
+		roletext => "You and BUDDY1 have each others' numbers on your Pokegears. You can communicate with each other at night.",
 		actions => [],
 		groups => ["mason1"],
 		status => {
