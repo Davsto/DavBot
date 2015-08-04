@@ -7774,7 +7774,6 @@ our %role_config = (
 	poke_daylooker => {
 		alias => 'poke_looker+template_day',
 		countas => "c",
-		setup => "town/power,mafia-ally",
 		power => 0.5,
 		rarity => 3,
 		theme => "poke",
