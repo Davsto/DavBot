@@ -7958,7 +7958,7 @@ our %role_config = (
 		setup => "town",
 		minrole => 2,
 		power => -0.2,
-		rarity => 15,
+		rarity => 1,
 		theme => "poke",
 	},
 	poke_braviary => {
