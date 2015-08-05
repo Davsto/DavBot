@@ -402,6 +402,7 @@ our %setup_config = (
 		theme => "poke",
 	},
 	chosenpokemon => {
+		minplayers => 4,
 		weirdness => 1,
 		teamweirdness => 0.5,
 		nobastard => 1,
