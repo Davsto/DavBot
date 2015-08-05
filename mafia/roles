@@ -7955,10 +7955,10 @@ our %role_config = (
 		minplayers => 5,
 		countas => 'sib',
 		minmafia => 1,
-		setup => "town/mafia",
+		setup => "town",
 		minrole => 2,
 		power => -0.2,
-		rarity => 1,
+		rarity => 15,
 		theme => "poke",
 	},
 	poke_braviary => {
