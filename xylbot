@@ -56,7 +56,7 @@ if (!defined $loaded || !$loaded)
 {
 	$pid_file= "xylbot";
 	$server = "fluffypony.nl.eu.synirc.net";
-	$channel = "#davbottest";
+	$channel = "#scpmafia";
 	$nick = "DavBot";
 	$owner = "Davsto";
 	$password = "beepboopiamrobot1";
