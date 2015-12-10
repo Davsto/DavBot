@@ -1180,6 +1180,16 @@ our %role_config = (
 		setup_checks => ["d,minactpoison,1"],
 		theme => "normal,foxworld",
 	},
+		jk => {
+		name => "Jailkeeper"
+		roletext => "You can jail another player. If they are jailed, they are protected from kills, but are also roleblocked.
+		actions => ["jail"],
+		minplayers => 6
+		setup => "town/power",
+		countas => 'd'
+		power => 0.5
+		rarity => 10
+	},
 	bg1 => {
 		name => "Elite Bodyguard",
 		roletext => "You can guard another player. If that player would be killed, you will kill the attacker instead.",
