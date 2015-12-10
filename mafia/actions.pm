@@ -773,6 +773,11 @@ our %action_config = (
 		targets => ["alive,nonself"],
 		help => "abduct [player]: Abducts a player, both blocking their night action and preventing them from being targeted by other night actions.",
 	},
+	jail => {
+		alias => "block #1 \\ protect #1",
+		targets => ["alive,nonself"],
+		help => "jail [player]: Jails a player, both protecting them from kills and roleblocking them."
+	},
 	negate => {
 		alias => "block #1 \\ subvote #1",
 		targets => ["alive,nonself"],
