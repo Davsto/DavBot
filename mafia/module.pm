@@ -1831,16 +1831,9 @@ sub brag {
 	}
 
 	my $braginterval;
-	if ($brag_count < 4) {
-		my @bragintervals = (5, 10, 30, 60);
+	if ($brag_count < 1) {
+		my @bragintervals = (1);
 		$braginterval = $bragintervals[$brag_count];
-	}
-	else {
-		$braginterval = 120;
-	}
-
-	if (++$brag_count < 20) {
-		schedule(\$bragtimer, $braginterval * 60, \&brag);
 	}
 }
 
