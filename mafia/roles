@@ -1182,7 +1182,7 @@ our %role_config = (
 	},
 		jk => {
 		name => "Jailkeeper"
-		roletext => "You can jail another player. If they are jailed, they are protected from kills, but are also roleblocked.
+		roletext => "You can jail another player. If they are jailed, they are protected from kills, but are also roleblocked."
 		actions => ["jail"],
 		minplayers => 6
 		setup => "town/power",
