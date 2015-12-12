@@ -31,7 +31,7 @@ our %setup_config = (
 		start3_11 => "day", roles3_11 => [qw"sk/sk1 v1,sk/sk2 red1/mafia"],
 		start3_12 => "day", roles3_12 => [qw"t,trefq,ss saul/mafia-ally,ghost1 m/mafia"],
 		start3_13 => "day", roles3_13 => [qw"rv1q,red1 t,v1 m/mafia,sk/sk"],
-		help => "normal: The default setup, with a balanced mix of roles.",
+		help => "normalday: The default setup, with a balanced mix of roles, but with a day start!",
 		randomok => 1,
 	},
 	normalday => {
