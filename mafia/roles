@@ -1187,6 +1187,7 @@ our %role_config = (
 		minplayers => 6,
 		setup => "town/power",
 		countas => 'd',
+		rarity => 10,
 		power => 0.5,
 	},
 	bg1 => {
