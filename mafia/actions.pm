@@ -297,6 +297,7 @@ our %action_config = (
 	},
 	paralyze => {
 		alias => "curse",
+		targets => ["alive, nonself"],
 		status => 'paralyze',
 		help => "paralyze [player]: Inflict paralysis on another player.",
 	},	
