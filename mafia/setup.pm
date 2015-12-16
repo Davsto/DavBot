@@ -2340,7 +2340,7 @@ sub preconvert_role {
 	$minmason *= setup_rule('maxchoices', $setup) if setup_rule('maxchoices', $setup);
 	
 	# Try hard to pair masons/siblings
-	foreach my $mason (qw[mas1 mas2 sib theme_cosmic_symbiote gunfighter150polaritywave])
+	foreach my $mason (qw[mas1 mas2 sib theme_cosmic_symbiote gunfighter150polaritywave poke_magneton poke_magneton2 poke_connected1 poke_connected2])
 	{
 		if ($role_count->{$team}{"=$mason"} && $role_count->{$team}{"=$mason"} < $minmason)
 		{
